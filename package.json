@@ -1,0 +1,20 @@
+{
+    "name": "-asdf",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": "12.x"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dbd.db": "^1.3.11", 
+      "dbd.js": "^2.0.0", 
+      "express": "^4.17.1", 
+      "ping-monitor": "^0.6.0",
+    }
+  } 
