@@ -39,7 +39,7 @@ $message[1]]
 $color[RANDOM]
 
 $onlyIf[$charCount[$message]<=5;mi prefix no puede contener más de 5 letras] 
-$onlyIf[$checkContains[$message[1];$;=;(;);-;_;+;?;/;:;';";#;@{;};<;>;[;];¿]==false;este no puede ser mi prefix!]
+$onlyIf[$checkContains[$message[1];$;=;(;);-;_;+;?;/;:;';";#;@{;};<;>;¿]==false;este no puede ser mi prefix!]
 
 $onlyPerms[admin;no tienes los permisos suficientes!]
 $argsCheck[1;escribe mi nuevo prefix!]`
